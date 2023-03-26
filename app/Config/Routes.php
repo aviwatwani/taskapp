@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/tasks', 'Tasks::index');
 $routes->get('/migrate', 'Migrate::index');
+$routes->get('/signup', 'Signup::new');
+$routes->get('/login', 'Login::new');
 
 /*
  * --------------------------------------------------------------------
